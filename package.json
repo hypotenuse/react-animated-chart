@@ -1,0 +1,29 @@
+{
+  "name": "react-hooks",
+  "version": "1.0.0",
+  "description": "react-hooks",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --env development --hot --port 3000",
+    "build": "webpack --env production"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
